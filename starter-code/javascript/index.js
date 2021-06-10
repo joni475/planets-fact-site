@@ -9,15 +9,18 @@ const navLinks = document.querySelector(".nav-links");
 })();
 
 // main section
-
+//buttons
 const btnOne = document.querySelector("#btn-one");
 const btnTwo = document.querySelector("#btn-two");
 const btnThree = document.querySelector("#btn-three");
 
+//images
 const imageOne = document.querySelector("#img-one");
 const imageTwo = document.querySelector("#img-two");
 const imageThree = document.querySelector("#img-three");
 
+
+//planet desc.
 const planetOne = document.querySelector("#desc-one");
 const planetOneTwo = document.querySelector("#desc-two");
 const planetOneThree = document.querySelector("#desc-three");
@@ -26,7 +29,6 @@ const planetOneThree = document.querySelector("#desc-three");
 (function(){
   btnOne.addEventListener("click",()=>{
     imageOne.style.display="block";
-    imageOne.style.top="35%";
     imageTwo.classList.remove("show");
     imageThree.classList.remove("show");
    
@@ -53,7 +55,6 @@ const planetOneThree = document.querySelector("#desc-three");
 }),
 btnThree.addEventListener("click",()=>{
     imageOne.style.display="block";
-    imageOne.style.top="20%";
     imageTwo.classList.remove("show");
     imageThree.classList.add("show");
 

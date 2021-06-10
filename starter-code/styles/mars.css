@@ -145,8 +145,18 @@ ul {
 .mars__images-img-two,
 .mars__images-img-three {
     position: absolute;
-    left: 35%;
+    left: 32%;
     top: 35%;
+}
+
+.mars__image-three img {
+    width: 111px;
+    height: 135px;
+}
+
+.mars__images-img-three {
+    top: 50%;
+    left: 35%;
 }
 
 .mars__images-img-two,
@@ -160,16 +170,6 @@ ul {
 
 .mars__images-img-three.show {
     display: block;
-}
-
-.mars__image-three img {
-    width: 111px;
-    height: 135px;
-}
-
-.mars__images-img-three {
-    top: 38%;
-    left: 37%;
 }
 
 /* mars__head styling */
@@ -278,11 +278,9 @@ footer {
     .nav-links img {
         display: block;
     }
-
     .nav {
         padding: 18px;
     }
-
     .nav-links {
         position: absolute;
         top: 85px;
@@ -296,18 +294,15 @@ footer {
         transition: 0.5s ease;
         z-index: 4;
     }
-
     .nav-links.show {
         transform: translate(0);
     }
-
     .nav-links li {
         padding: 22px 0;
         display: flex;
         align-items: center;
         position: relative;
     }
-
     .nav-links li::after {
         content: "";
         position: absolute;
@@ -316,70 +311,55 @@ footer {
         top: 65px;
         background-color: var(--colorThree);
     }
-
     .nav-links li:last-child::after {
         display: none;
     }
-
     .nav-links li a {
         font-size: 15px;
         letter-spacing: 1.36px;
         font-weight: 700;
     }
-
     .nav-links span {
         width: 20px;
         height: 20px;
         border-radius: 50%;
         margin-right: 18px;
     }
-
     .nav-links img {
         margin-left: auto;
     }
-
     .span__mercury {
         background-color: #def4fc;
     }
-
     .span__venus {
         background-color: #f7cc7f;
     }
-
     .span__earth {
         background-color: #545bfe;
     }
-
     .span__mars {
         background-color: #ff6a45;
     }
-
     .span__jupiter {
         background-color: #ecad7a;
     }
-
     .span__saturn {
         background-color: #fccb6b;
     }
-
     .span__uranus {
         background-color: #65f0d5;
     }
-
     .span__neptune {
         background-color: #497efa;
     }
-
     h1 {
         font-size: 40px;
         font-weight: 400;
         line-height: 51.76px;
     }
-
     .mars-buttons span {
         display: none;
     }
-
     .mars-button__one::after {
         content: "";
         position: absolute;
@@ -424,6 +404,7 @@ footer {
     .mars__image-two img {
         width: 213px;
         height: 213px;
+        left: 37%;
     }
 
     .mars__image-three img {
@@ -433,7 +414,7 @@ footer {
 
     .mars__images-img-three {
         top: 60%;
-        left: 40%;
+        left: 41%;
     }
 
     /* mars__desc styling */
@@ -441,7 +422,7 @@ footer {
     .mars__desc-two,
     .mars__desc-three {
         height: 100%;
-        width: 40%;
+        width: 50%;
         height: 330px;
     }
 
@@ -584,18 +565,16 @@ footer {
 
     .mars__images-img-three {
         top: 85%;
-        left: 47%;
+        left: 49%;
     }
 
     /* mars__desc styling */
     .mars__desc-one,
     .mars__desc-two,
     .mars__desc-three {
-        height: 100%;
-        width: 350px;
+        width: 330px;
+        height: auto;
         padding-right: 0;
-        height: 250px;
-
     }
 
     /* mars-buttons styling */
@@ -607,6 +586,7 @@ footer {
     /* footer styling */
     footer {
         margin-left: 150px;
+        padding: 0;
     }
 
     .mars__info-two {

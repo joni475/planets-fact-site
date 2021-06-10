@@ -149,6 +149,16 @@ ul {
     top: 35%;
 }
 
+.venus__image-three img {
+    width: 111px;
+    height: 135px;
+}
+
+.venus__images-img-three {
+    top: 55%;
+    left: 36%;
+} 
+
 .venus__images-img-two,
 .venus__images-img-three {
     display: none;
@@ -162,26 +172,10 @@ ul {
     display: block;
 }
 
-.venus__images-img {
-    width: 111px;
-    height: 145px;
-}
-
-.venus__image-three img {
-    width: 111px;
-    height: 135px;
-}
-
-.venus__images-img-three {
-    top: 45%;
-    left: 35%;
-} 
-
 /* venus__head styling */
 .venus__head {
     margin-bottom: 18px;
 }
-
 
 /* venus__desc styling */
 .venus__desc,
@@ -218,7 +212,6 @@ ul {
     padding-bottom: 20px;
 }
 
-
 /* venus-button styling */
 .venus-buttons {
     display: grid;
@@ -243,6 +236,7 @@ footer {
     top: 200px;
     padding-right: 18px;
     padding-left: 18px;
+    text-transform: uppercase;
 }
 
 .venus__info {
@@ -260,7 +254,6 @@ footer {
     line-height: 16px;
     letter-spacing: 0.73px;
     font-weight: 700;
-    text-transform: uppercase;
     opacity: 50%;
     padding-left: 18px;
 }
@@ -283,11 +276,9 @@ footer {
     .nav-links img {
         display: block;
     }
-
     .nav {
         padding: 18px;
     }
-
     .nav-links {
         position: absolute;
         top: 85px;
@@ -301,18 +292,15 @@ footer {
         transition: 0.5s ease;
         z-index: 4;
     }
-
     .nav-links.show {
         transform: translate(0);
     }
-
     .nav-links li {
         padding: 22px 0;
         display: flex;
         align-items: center;
         position: relative;
     }
-
     .nav-links li::after {
         content: "";
         position: absolute;
@@ -321,70 +309,55 @@ footer {
         top: 65px;
         background-color: var(--colorThree);
     }
-
     .nav-links li:last-child::after {
         display: none;
     }
-
     .nav-links li a {
         font-size: 15px;
         letter-spacing: 1.36px;
         font-weight: 700;
     }
-
     .nav-links span {
         width: 20px;
         height: 20px;
         border-radius: 50%;
         margin-right: 18px;
     }
-
     .nav-links img {
         margin-left: auto;
     }
-
     .span__mercury {
         background-color: #def4fc;
     }
-
     .span__venus {
         background-color: #f7cc7f;
     }
-
     .span__earth {
         background-color: #545bfe;
     }
-
     .span__mars {
         background-color: #ff6a45;
     }
-
     .span__jupiter {
         background-color: #ecad7a;
     }
-
     .span__saturn {
         background-color: #fccb6b;
     }
-
     .span__uranus {
         background-color: #65f0d5;
     }
-
     .span__neptune {
         background-color: #497efa;
     }
-
     h1 {
         font-size: 40px;
         font-weight: 400;
         line-height: 51.76px;
     }
-
     .venus-buttons span {
         display: none;
     }
-
     .venus-button__one::after {
         content: "";
         position: absolute;
@@ -429,6 +402,7 @@ footer {
     .venus__image-two img {
         width: 253px;
         height: 253px;
+        left: 33%;
     }
 
     .venus__image-three img {
@@ -437,15 +411,15 @@ footer {
     }
     
     .venus__images-img-three {
-        top: 65%;
-        left: 36%;
+        top: 70%;
+        left: 39.5%;
     }
     /* venus__desc styling */
     .venus__desc-one,
     .venus__desc-two,
     .venus__desc-three {
         height: 100%;
-        width: 40%;
+        width: 50%;
         height: 330px;
     }
 
@@ -587,19 +561,17 @@ footer {
     }
 
     .venus__images-img-three {
-        top: 90%;
-        left: 47%;
+        top: 100%;
+        left: 49.5%;
     }
 
     /* venus__desc styling */
     .venus__desc-one,
     .venus__desc-two,
     .venus__desc-three {
-        height: 100%;
-        width: 350px;
+        width: 330px;
+        height: auto;
         padding-right: 0;
-        height: 250px;
-
     }
 
     /* venus-buttons styling */
@@ -611,6 +583,7 @@ footer {
     /* footer styling */
     footer {
         margin-left: 150px;
+        padding: 0;
     }
 
     .venus__info-two {

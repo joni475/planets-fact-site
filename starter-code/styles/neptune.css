@@ -124,64 +124,63 @@ ul {
 
 /* main styling */
 
-.earth {
+.neptune {
     display: flex;
     flex-direction: column;
 }
 
-/* earth__images styling */
-.earth__images {
+/* neptune__images styling */
+.neptune__images {
     text-align: center;
     position: relative;
     height: 400px;
 }
 
-.earth__images img {
+.neptune__images img {
     width: 173px;
     height: 173px;
 }
 
-.earth__images-img-one,
-.earth__images-img-two,
-.earth__images-img-three {
+.neptune__images-img-one,
+.neptune__images-img-two,
+.neptune__images-img-three {
     position: absolute;
-    left: 28%;
-    top: 35%;
+    left: 26%;
+    top: 25%;
 }
 
-.earth__images-img-three {
-    top: 60%;
-    left: 37%;
-}
-
-.earth__images-img-two,
-.earth__images-img-three {
+.neptune__images-img-two,
+.neptune__images-img-three {
     display: none;
 }
 
-.earth__images-img-two.show {
+.neptune__images-img-two.show {
     display: block;
 }
 
-.earth__images-img-three.show {
+.neptune__images-img-three.show {
     display: block;
 }
 
-.earth__image-three img {
+.neptune__image-three img {
     width: 111px;
     height: 135px;
 }
 
+.neptune__images-img-three {
+    top: 52%;
+    left: 35%;
+}
 
-/* earth__head styling */
-.earth__head {
+/* neptune__head styling */
+.neptune__head {
     margin-bottom: 18px;
 }
 
 
-/* earth__desc styling */
-.earth__desc,
-.earth__head {
+/* neptune__desc styling */
+.neptune__desc,
+.neptune__head {
     text-align: center;
 }
 
@@ -196,27 +195,27 @@ ul {
     font-size: 12px;
 }
 
-.earth__desc-one,
-.earth__desc-two,
-.earth__desc-three {
+.neptune__desc-one,
+.neptune__desc-two,
+.neptune__desc-three {
     position: absolute;
     height: 200px;
     padding-right: 18px;
     padding-left: 18px;
 }
 
-.earth__desc-two,
-.earth__desc-three {
+.neptune__desc-two,
+.neptune__desc-three {
     display: none;
 }
 
-.earth__desc p {
+.neptune__desc p {
     padding-bottom: 20px;
 }
 
 
-/* earth-button styling */
-.earth-buttons {
+/* neptune-button styling */
+.neptune-buttons {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     order: -1;
@@ -224,7 +223,7 @@ ul {
     border-bottom: 1px solid var(--colorThree);
 }
 
-.earth-buttons button {
+.neptune-buttons button {
     font-size: 9px;
     font-weight: 700;
     line-height: 10.08px;
@@ -242,7 +241,7 @@ footer {
     text-transform: uppercase;
 }
 
-.earth__info {
+.neptune__info {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
@@ -252,7 +251,7 @@ footer {
     margin: 5px 0;
 }
 
-.earth__info-one {
+.neptune__info-one {
     font-size: 8px;
     line-height: 16px;
     letter-spacing: 0.73px;
@@ -261,7 +260,7 @@ footer {
     padding-left: 18px;
 }
 
-.earth__info-two {
+.neptune__info-two {
     justify-self: flex-end;
     font-size: 20px;
     font-family: "Antonio", sans-serif;
@@ -358,19 +357,20 @@ footer {
         font-weight: 400;
         line-height: 51.76px;
     }
-    .earth-buttons span {
+    .neptune-buttons span {
         display: none;
     }
-    .earth-button__one::after {
+    .neptune-button__one::after {
         content: "";
         position: absolute;
         left: 20%;
         top: 25px;
         height: 3px;
         width: 60%;
-        background-color: #545bfe;
+        background-color: #497efa;
     }
 }
+
 
 /* tablet version */
 @media(min-width: 701px) {
@@ -400,68 +400,68 @@ footer {
 
     /* main styling */
 
-    /* earth__images styling */
-    .earth__image-one img,
-    .earth__image-two img {
+    /* neptune__images styling */
+    .neptune__images-img-one,
+    .neptune__images-img-two,
+    .neptune__images-img-three {
+        left: 32%;
+        top: 25%;
+    }
+
+    .neptune__image-one img,
+    .neptune__image-two img {
         width: 285px;
         height: 285px;
-        top: 30%;
-        left: 32%;
     }
 
-    .earth__image-three img {
-        width: 155px;
-        height: 184px;
-    }
-
-    .earth__images-img-three {
+    .neptune__images-img-three {
         top: 80%;
-        left: 41%;
+        left: 43.5%;
     }
 
-    /* earth__desc styling */
-    .earth__desc-one,
-    .earth__desc-two,
-    .earth__desc-three {
+    /* neptune__desc styling */
+    .neptune__desc-one,
+    .neptune__desc-two,
+    .neptune__desc-three {
         height: 100%;
         width: 50%;
         height: 330px;
     }
 
-    /* earth style grid spec. */
-    .earth {
+    /* neptune style grid spec. */
+    .neptune {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
 
-    .earth__images {
+    .neptune__images {
         grid-row: 1;
         grid-column: 1 / -1;
     }
 
-    .earth__intro {
+    .neptune__intro {
         grid-row: 2;
         grid-column: 1 / 2;
         margin-top: 100px;
     }
 
-    .earth-buttons {
+    .neptune-buttons {
         grid-row: 2;
         grid-column: 2 / 3;
     }
 
-    .earth__desc {
+    .neptune__desc {
         text-align: left;
 
     }
 
-    .earth__head {
+    .neptune__head {
         text-align: left;
         padding-left: 18px;
     }
 
-    /* earth-buttons styling */
-    .earth-buttons {
+    /* neptune-buttons styling */
+    .neptune-buttons {
         display: grid;
         grid-gap: 12px;
         grid-template-columns: 1fr;
@@ -470,17 +470,17 @@ footer {
         border-bottom: none;
     }
 
-    .earth-button__one,
-    .earth-button__two,
-    .earth-button__three {
+    .neptune-button__one,
+    .neptune-button__two,
+    .neptune-button__three {
         border: 1px solid var(--colorThree);
         height: 40px;
         text-align: left;
         padding-left: 18px;
     }
 
-    .earth-button__one {
-        background-color: #545bfe;
+    .neptune-button__one {
+        background-color: #ff6a45;
     }
 
     /* footer styling */
@@ -491,7 +491,7 @@ footer {
         /* top: 275px; */
     }
 
-    .earth__info {
+    .neptune__info {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -499,7 +499,7 @@ footer {
         height: 88px;
     }
 
-    .earth__info-two {
+    .neptune__info-two {
         padding-left: 18px;
     }
 
@@ -531,56 +531,61 @@ footer {
     }
 
     /* main styling */
-    .earth {
+    .neptune {
         display: grid;
         grid-gap: 55px;
         grid-template-columns: repeat(3, 1fr);
     }
 
-    .earth__images {
+    .neptune__images {
         grid-row: 1 /span 2;
         grid-column: 1 / 3;
     }
 
-    .earth__intro {
+    .neptune__intro {
         grid-row: 1;
         grid-column: 3 / 4;
     }
 
-    .earth-buttons {
+    .neptune-buttons {
         grid-row: 2;
         grid-column: 3 / 4;
         z-index: 1;
     }
 
-    /* earth__images styling */
-    .earth__image-one img,
-    .earth__image-two img {
+    .neptune__image-one img,
+    .neptune__image-two img {
         width: 450px;
         height: 450px;
     }
 
-    .earth__image-three img {
+    .neptune__image-one img,
+    .neptune__image-two img {
+        top: 32%;
+        left: 28%;
+    }
+
+    .neptune__image-three img {
         width: 163px;
         height: 199px;
     }
 
-    .earth__images-img-three {
-        top: 115%;
-        left: 49.5%;
+    .neptune__images-img-three {
+        top: 110%;
+        left: 49%;
     }
 
-    /* earth__desc styling */
-    .earth__desc-one,
-    .earth__desc-two,
-    .earth__desc-three {
-        width: 335px;
-        padding-right: 0;
+    /* neptune__desc styling */
+    .neptune__desc-one,
+    .neptune__desc-two,
+    .neptune__desc-three {
+        width: 390px;
         height: auto;
+        padding-right: 0;
     }
 
-    /* earth-buttons styling */
-    .earth-buttons {
+    /* neptune-buttons styling */
+    .neptune-buttons {
         margin-top: 45px;
         padding-right: 0;
     }
@@ -591,7 +596,7 @@ footer {
         padding: 0;
     }
 
-    .earth__info-two {
+    .neptune__info-two {
         font-size: 40px;
         line-height: 51.76px;
         letter-spacing: -1.5px;
