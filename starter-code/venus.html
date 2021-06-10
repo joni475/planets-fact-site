@@ -1,63 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Antonio:wght@400;500;600;700&family=Spartan:wght@400;500;600&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="./styles/venus.css">
+
+  <script src="./javascript/index.js" defer></script>
+
   <title>Frontend Mentor | Planets fact site</title>
 </head>
+
 <body>
-  Venus
 
-  <!-- Overview Content Start -->
+  <nav>
 
-  Venus is the second planet from the Sun. It is named after the 
-  Roman goddess of love and beauty. As the brightest natural object 
-  in Earth's night sky after the Moon, Venus can cast shadows and 
-  can be, on rare occasions, visible to the naked eye in broad daylight.
+    <div class="container nav">
+      <!--container and nav starts here-->
+      <div class="logo">the planets</div>
 
-  Source : Wikipedia <!-- URL: https://en.wikipedia.org/wiki/Venus -->
+      <ul class="nav-links">
+        <li><span class="span__mercury"></span><a href="../index.html">mercury</a><img src="./assets/icon-chevron.svg"
+            alt="chevron icon"></li>
+        <li><span class="span__venus"></span><a href="./venus.html">venus</a><img src="./assets/icon-chevron.svg"
+            alt="chevron icon"></li>
+        <li><span class="span__earth"></span><a href="./earth.html">earth</a><img src="./assets/icon-chevron.svg"
+            alt="chevron icon"></li>
+        <li><span class="span__mars"></span><a href="./mars.html">mars</a><img src="./assets/icon-chevron.svg"
+            alt="chevron icon"></li>
+        <li><span class="span__jupiter"></span><a href="./jupiter.html">jupiter</a><img src="./assets/icon-chevron.svg"
+            alt="chevron icon"></li>
+        <li><span class="span__saturn"></span><a href="./saturn.html">saturn</a><img src="./assets/icon-chevron.svg"
+            alt="chevron icon"></li>
+        <li><span class="span__uranus"></span><a href="./uranus.html">uranus</a><img src="./assets/icon-chevron.svg"
+            alt="chevron icon"></li>
+        <li><span class="span__neptune"></span><a href="./neptune.html">neptune</a><img src="./assets/icon-chevron.svg"
+            alt="chevron icon"></li>
+      </ul>
 
-  <!-- Overview Content End -->
+      <div class="hamburger">
+        <img src="./assets/icon-hamburger.svg" alt="hamburger icon">
+      </div>
+    </div>
+    <!--container and nav ends here-->
+  </nav>
 
-  <!-- Internal Structure Content Start -->
+  <main>
+    <div class="container">
+      <!--main and container starts here-->
 
-  The similarity in size and density between Venus and Earth suggests 
-  they share a similar internal structure: a core, mantle, and crust. 
-  Like that of Earth, Venusian core is most likely at least partially 
-  liquid because the two planets have been cooling at about the same rate.
+      <div class="venus">
+        <!--venus starts here -->
 
-  Source : Wikipedia <!-- URL: https://en.wikipedia.org/wiki/Venus#Internal_structure -->
+        <div class="venus__images">
+          <div class="venus__image-one">
+            <img class="venus__images-img-one" id="img-one" src="./assets/planet-venus.svg" alt="venus planet image">
+          </div>
+          <div class="venus__image-two">
+            <img class="venus__images-img-two" id="img-two" src="./assets/planet-venus-internal.svg"
+              alt="venus planet internal image">
+          </div>
+          <div class="venus__image-three">
+            <img class="venus__images-img-three" id="img-three" src="./assets/geology-venus.png"
+              alt="venus planet geology image">
+          </div>
+        </div>
 
-  <!-- Internal Structure Content End -->
 
-  <!-- Surface Geology Content Start -->
+        <div class="venus__intro">
+          <!--venus__intro starts-->
 
-  Much of the Venusian surface appears to have been shaped by volcanic activity. 
-  Venus has several times as many volcanoes as Earth, and it has 167 large 
-  volcanoes that are over 100 km (60 mi) across. The only volcanic complex 
-  of this size on Earth is the Big Island of Hawaii.
+          <div class="venus__head">
+            <h1>venus</h1>
+          </div>
 
-  Source : Wikipedia <!-- URL: https://en.wikipedia.org/wiki/Venus#Surface_geology -->
+          <div class="venus__desc">
+            <!--venus__desc starts-->
+            <div class="venus__desc-one" id="desc-one">
+              <!--venus__desc-one start-->
+              <p>
+                venus is the second planet from the Sun. It is named after the
+                Roman goddess of love and beauty. As the brightest natural object
+                in venus's night sky after the Moon, venus can cast shadows and
+                can be, on rare occasions, visible to the naked eye in broad daylight.
+              </p>
+              <span class="check-wiki">
+                <span class="check-wiki__source">Source:</span>
+                <span class="check-wiki__link">
+                  <a href=" https://en.wikipedia.org/wiki/venus">Wikipedia</a>
+                  <img src="./assets/icon-source.svg" alt="icon source">
+                </span>
+              </span>
+            </div>
+            <!--venus__desc-one ends-->
 
-  <!-- Surface Geology Content End -->
 
-  01 Overview
-  02 Internal Structure
-  03 Surface Geology
 
-  Rotation Time
-  243 Days
+            <div class="venus__desc-two" id="desc-two">
+              <!--venus__desc-two start-->
+              <p>
+                The similarity in size and density between venus and venus suggests
+                they share a similar internal structure: a core, mantle, and crust.
+                Like that of venus, venusian core is most likely at least partially
+                liquid because the two planets have been cooling at about the same rate.
+              </p>
+              <span class="check-wiki">
+                <span class="check-wiki__source">Source:</span>
+                <span class="check-wiki__link">
+                  <a href="https://en.wikipedia.org/wiki/venus#Internal_structure">Wikipedia</a>
+                  <img src="./assets/icon-source.svg" alt="icon source">
+                </span>
+              </span>
+            </div>
+            <!--venus__desc-two ends-->
 
-  Revolution Time
-  224.7 Days
 
-  Radius
-  6,051.8 KM
 
-  Average Temp.
-  471°c
+            <div class="venus__desc-three" id="desc-three">
+              <!--venus__desc-three start-->
+              <p>
+                Much of the venusian surface appears to have been shaped by volcanic activity.
+                venus has several times as many volcanoes as venus, and it has 167 large
+                volcanoes that are over 100 km (60 mi) across. The only volcanic complex
+                of this size on venus is the Big Island of Hawaii.
+              </p>
+              <span class="check-wiki">
+                <span class="check-wiki__source">Source:</span>
+                <span class="check-wiki__link">
+                  <a href="https://en.wikipedia.org/wiki/venus#Surface_geology">Wikipedia</a>
+                  <img src="./assets/icon-source.svg" alt="icon source">
+                </span>
+              </span>
+            </div>
+            <!--venus__desc-three ends-->
+
+          </div>
+          <!--venus__desc ends-->
+
+
+        </div>
+        <!--venus__intro ends-->
+
+
+        <div class="venus-buttons">
+          <!--venus-buttons start-->
+          <button class="venus-button__one" id="btn-one">
+            <span>01</span> overview
+          </button>
+          <button class="venus-button__two" id="btn-two">
+            <span>02</span> <span>internal</span> structures
+          </button>
+          <button class="venus-button__three" id="btn-three">
+            <span>03</span> surface <span>geology</span>
+          </button>
+        </div>
+        <!--venus-buttons end-->
+
+      </div>
+      <!--venus ends here-->
+
+      <footer>
+        <!--footer styling starts here-->
+        <div class="venus__info">
+          <div class="venus__info-one">rotation time</div>
+          <div class="venus__info-two">243 days</div>
+        </div>
+        <div class="venus__info">
+          <div class="venus__info-one">revolution time</div>
+          <div class="venus__info-two">224.7 days</div>
+        </div>
+        <div class="venus__info">
+          <div class="venus__info-one">radius</div>
+          <div class="venus__info-two">6,051.8 km</div>
+        </div>
+        <div class="venus__info">
+          <div class="venus__info-one">average temperature</div>
+          <div class="venus__info-two">471&deg;c</div>
+        </div>
+
+      </footer>
+      <!--footer styling ends here-->
+    </div>
+  </main>
+  <!--main and container ends here-->
+
 </body>
+
 </html>

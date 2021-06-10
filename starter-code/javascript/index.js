@@ -10,29 +10,29 @@ const navLinks = document.querySelector(".nav-links");
 
 // main section
 
-const btnOne = document.querySelector(".mercury-button__one");
-const btnTwo = document.querySelector(".mercury-button__two");
-const btnThree = document.querySelector(".mercury-button__three");
+const btnOne = document.querySelector("#btn-one");
+const btnTwo = document.querySelector("#btn-two");
+const btnThree = document.querySelector("#btn-three");
 
-const imageOne = document.querySelector(".mercury__images-img-one");
-const imageTwo = document.querySelector(".mercury__images-img-two");
-const imageThree = document.querySelector(".mercury__images-img-three");
+const imageOne = document.querySelector("#img-one");
+const imageTwo = document.querySelector("#img-two");
+const imageThree = document.querySelector("#img-three");
 
-const mercuryOne = document.querySelector(".mercury__desc-one");
-const mercuryTwo = document.querySelector(".mercury__desc-two");
-const mercuryThree = document.querySelector(".mercury__desc-three");
+const planetOne = document.querySelector("#desc-one");
+const planetOneTwo = document.querySelector("#desc-two");
+const planetOneThree = document.querySelector("#desc-three");
 
 
 (function(){
   btnOne.addEventListener("click",()=>{
-    imageOne.style.display="flex";
+    imageOne.style.display="block";
     imageOne.style.top="35%";
     imageTwo.classList.remove("show");
     imageThree.classList.remove("show");
    
-    mercuryOne.style.display="block";
-    mercuryTwo.style.display="none";
-    mercuryThree.style.display="none";
+    planetOne.style.display="block";
+    planetOneTwo.style.display="none";
+    planetOneThree.style.display="none";
     
     btnOne.style.opacity="1";
     btnTwo.style.opacity="50%";
@@ -43,9 +43,9 @@ const mercuryThree = document.querySelector(".mercury__desc-three");
     imageTwo.classList.add("show");
     imageThree.classList.remove("show");
 
-    mercuryOne.style.display="none";
-    mercuryTwo.style.display="block";
-    mercuryThree.style.display="none";
+    planetOne.style.display="none";
+    planetOneTwo.style.display="block";
+    planetOneThree.style.display="none";
 
     btnOne.style.opacity="50%";
     btnTwo.style.opacity="1";
@@ -57,9 +57,9 @@ btnThree.addEventListener("click",()=>{
     imageTwo.classList.remove("show");
     imageThree.classList.add("show");
 
-    mercuryTwo.style.display="none";
-    mercuryOne.style.display="none";
-    mercuryThree.style.display="block";
+    planetOneTwo.style.display="none";
+    planetOne.style.display="none";
+    planetOneThree.style.display="block";
 
     btnOne.style.opacity="50%";
     btnTwo.style.opacity="50%";
