@@ -291,7 +291,7 @@ footer {
         background-color: var(--colorTwo);
         background-image: url(../assets/background-stars.svg);
         padding: 0 18px;
-        transform: translate(120%);
+        transform: translate(-120%);
         transition: 0.5s ease;
         z-index: 4;
     }
