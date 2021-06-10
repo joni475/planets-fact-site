@@ -579,13 +579,11 @@ footer {
     .jupiter__image-three img {
         width: 163px;
         height: 199px;
-    }
-
-    .jupiter__images-img-three {
         top: 105%;
         left: 47%;
     }
 
+   
     /* jupiter__desc styling */
     .jupiter__desc-one,
     .jupiter__desc-two,
