@@ -537,6 +537,20 @@ footer {
         display: flex;
         justify-content: space-between;
     }
+    
+    .nav-links li {
+        position: relative;
+    }
+    
+    .uranus-li::before {
+        content: "";
+        position: absolute;
+        top: -110%;
+        right: 3%;
+        width: 100%;
+        height: 5px;
+        background-color: #65f0d5;
+    }
 
     /* main styling */
     .uranus {

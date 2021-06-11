@@ -520,7 +520,21 @@ footer {
         display: flex;
         justify-content: space-between;
     }
-
+    
+    .nav-links li {
+        position: relative;
+    }
+    
+    .mercury-li::before {
+        content: "";
+        position: absolute;
+        top: -110%;
+        right: 3%;
+        width: 100%;
+        height: 5px;
+        background-color: #def4fc;
+    }
+    
     /* main styling */
     .mercury {
         display: grid;

@@ -532,6 +532,20 @@ footer {
         justify-content: space-between;
     }
 
+    .nav-links li {
+        position: relative;
+    }
+    
+    .neptune-li::before {
+        content: "";
+        position: absolute;
+        top: -110%;
+        right: 3%;
+        width: 100%;
+        height: 5px;
+        background-color: #497efa;
+    }
+
     /* main styling */
     .neptune {
         display: grid;
