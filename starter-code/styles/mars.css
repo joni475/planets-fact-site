@@ -239,6 +239,8 @@ footer {
     top: 200px;
     padding-right: 18px;
     padding-left: 18px;
+    padding-bottom: 50px;
+    text-transform: uppercase;
 }
 
 .mars__info {
@@ -256,7 +258,6 @@ footer {
     line-height: 16px;
     letter-spacing: 0.73px;
     font-weight: 700;
-    text-transform: uppercase;
     opacity: 50%;
     padding-left: 18px;
 }
@@ -587,7 +588,7 @@ footer {
     /* footer styling */
     footer {
         margin-left: 150px;
-        padding: 0;
+        padding: 0 0 50px 0;
     }
 
     .mars__info-two {

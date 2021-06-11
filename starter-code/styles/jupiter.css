@@ -236,6 +236,7 @@ footer {
     top: 200px;
     padding-right: 18px;
     padding-left: 18px;
+    padding-bottom: 50px;
     text-transform: uppercase;
 }
 
@@ -602,7 +603,7 @@ footer {
     /* footer styling */
     footer {
         margin-left: 150px;
-        padding: 0;
+        padding: 0 0 50px 0;
     }
 
     .jupiter__info-two {
