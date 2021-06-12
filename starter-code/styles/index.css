@@ -470,10 +470,18 @@ footer {
         padding-left: 18px;
     }
 
-    .mercury-button__one {
+    .mercury-button__one:hover,
+    .mercury-button__two:hover,
+    .mercury-button__three:hover {
+        background-color: var(--colorThree);
+    } 
+
+    .mercury-button__one:focus,
+    .mercury-button__two:focus,
+    .mercury-button__three:focus {
         background-color: var(--colorFive);
     }
-
+ 
     /* footer styling */
     footer {
         display: grid;

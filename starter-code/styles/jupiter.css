@@ -481,11 +481,19 @@ footer {
         text-align: left;
         padding-left: 18px;
     }
+    
+    .jupiter-button__one:hover,
+    .jupiter-button__two:hover,
+    .jupiter-button__three:hover {
+        background-color: var(--colorThree);
+    } 
 
-    .jupiter-button__one {
-        background-color: #ff6a45;
+    .jupiter-button__one:focus,
+    .jupiter-button__two:focus,
+    .jupiter-button__three:focus {
+        background-color: #ecad7a;
     }
-
+    
     /* footer styling */
     footer {
         display: grid;

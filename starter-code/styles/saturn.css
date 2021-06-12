@@ -479,11 +479,19 @@ footer {
         text-align: left;
         padding-left: 18px;
     }
+    
+    .saturn-button__one:hover,
+    .saturn-button__two:hover,
+    .saturn-button__three:hover {
+        background-color: var(--colorThree);
+    } 
 
-    .saturn-button__one {
-        background-color: #ff6a45;
+    .saturn-button__one:focus,
+    .saturn-button__two:focus,
+    .saturn-button__three:focus {
+        background-color: #fccb6b;
     }
-
+   
     /* footer styling */
     footer {
         display: grid;

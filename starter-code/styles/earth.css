@@ -480,8 +480,16 @@ footer {
         text-align: left;
         padding-left: 18px;
     }
+  
+    .earth-button__one:hover,
+    .earth-button__two:hover,
+    .earth-button__three:hover {
+        background-color: var(--colorThree);
+    } 
 
-    .earth-button__one {
+    .earth-button__one:focus,
+    .earth-button__two:focus,
+    .earth-button__three:focus {
         background-color: #545bfe;
     }
 

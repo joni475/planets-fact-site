@@ -485,11 +485,19 @@ footer {
         text-align: left;
         padding-left: 18px;
     }
+    
+    .uranus-button__one:hover,
+    .uranus-button__two:hover,
+    .uranus-button__three:hover {
+        background-color: var(--colorThree);
+    } 
 
-    .uranus-button__one {
-        background-color: #ff6a45;
+    .uranus-button__one:focus,
+    .uranus-button__two:focus,
+    .uranus-button__three:focus {
+        background-color: #65f0d5;
     }
-
+    
     /* footer styling */
     footer {
         display: grid;

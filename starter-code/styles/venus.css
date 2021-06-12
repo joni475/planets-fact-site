@@ -476,7 +476,15 @@ footer {
         padding-left: 18px;
     }
 
-    .venus-button__one {
+    .venus-button__one:hover,
+    .venus-button__two:hover,
+    .venus-button__three:hover {
+        background-color: var(--colorThree);
+    } 
+
+    .venus-button__one:focus,
+    .venus-button__two:focus,
+    .venus-button__three:focus {
         background-color: #f7cc7f;
     }
 

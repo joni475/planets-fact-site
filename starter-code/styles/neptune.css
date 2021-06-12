@@ -480,9 +480,17 @@ footer {
         text-align: left;
         padding-left: 18px;
     }
+    
+    .neptune-button__one:hover,
+    .neptune-button__two:hover,
+    .neptune-button__three:hover {
+        background-color: var(--colorThree);
+    } 
 
-    .neptune-button__one {
-        background-color: #ff6a45;
+    .neptune-button__one:focus,
+    .neptune-button__two:focus,
+    .neptune-button__three:focus {
+        background-color: #497efa;
     }
 
     /* footer styling */

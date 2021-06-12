@@ -479,7 +479,15 @@ footer {
         padding-left: 18px;
     }
 
-    .mars-button__one {
+    .mars-button__one:hover,
+    .mars-button__two:hover,
+    .mars-button__three:hover {
+        background-color: var(--colorThree);
+    } 
+
+    .mars-button__one:focus,
+    .mars-button__two:focus,
+    .mars-button__three:focus {
         background-color: #ff6a45;
     }
 
