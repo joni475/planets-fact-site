@@ -37,8 +37,8 @@ const planetOneThree = document.querySelector("#desc-three");
     planetOneThree.style.display="none";
     
     btnOne.style.opacity="1";
-    btnTwo.style.opacity="50%";
-    btnThree.style.opacity="50%";
+    btnTwo.style.opacity="30%";
+    btnThree.style.opacity="30%";
   }),
   btnTwo.addEventListener("click",()=>{
     imageOne.style.display="none";
@@ -49,9 +49,9 @@ const planetOneThree = document.querySelector("#desc-three");
     planetOneTwo.style.display="block";
     planetOneThree.style.display="none";
 
-    btnOne.style.opacity="50%";
+    btnOne.style.opacity="30%";
     btnTwo.style.opacity="1";
-    btnThree.style.opacity="50%";
+    btnThree.style.opacity="30%";
 }),
 btnThree.addEventListener("click",()=>{
     imageOne.style.display="block";
@@ -62,8 +62,8 @@ btnThree.addEventListener("click",()=>{
     planetOne.style.display="none";
     planetOneThree.style.display="block";
 
-    btnOne.style.opacity="50%";
-    btnTwo.style.opacity="50%";
+    btnOne.style.opacity="30%";
+    btnTwo.style.opacity="30%";
     btnThree.style.opacity="1";
 })
 })();
