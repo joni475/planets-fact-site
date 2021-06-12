@@ -480,6 +480,10 @@ footer {
         text-align: left;
         padding-left: 18px;
     }
+
+    .neptune-button__one {
+        background-color: #497efa;
+    }
     
     .neptune-button__one:hover,
     .neptune-button__two:hover,

@@ -479,6 +479,10 @@ footer {
         padding-left: 18px;
     }
 
+    .mars-button__one {
+        background-color: #ff6a45;
+    }
+
     .mars-button__one:hover,
     .mars-button__two:hover,
     .mars-button__three:hover {

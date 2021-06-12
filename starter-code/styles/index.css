@@ -469,7 +469,11 @@ footer {
         text-align: left;
         padding-left: 18px;
     }
-
+    
+    .mercury-button__one {
+        background-color: var(--colorFive)
+    }
+    
     .mercury-button__one:hover,
     .mercury-button__two:hover,
     .mercury-button__three:hover {

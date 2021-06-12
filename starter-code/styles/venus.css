@@ -482,6 +482,10 @@ footer {
         background-color: var(--colorThree);
     } 
 
+    .venus-button__one {
+        background-color: #f7cc7f;
+    }
+
     .venus-button__one:focus,
     .venus-button__two:focus,
     .venus-button__three:focus {

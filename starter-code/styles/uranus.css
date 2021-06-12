@@ -486,6 +486,10 @@ footer {
         padding-left: 18px;
     }
     
+    .uranus-button__one {
+        background-color: #65f0d5;
+    }
+
     .uranus-button__one:hover,
     .uranus-button__two:hover,
     .uranus-button__three:hover {

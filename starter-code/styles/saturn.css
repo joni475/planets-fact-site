@@ -480,6 +480,10 @@ footer {
         padding-left: 18px;
     }
     
+    .saturn-button__one {
+        background-color: #fccb6b;
+    }
+
     .saturn-button__one:hover,
     .saturn-button__two:hover,
     .saturn-button__three:hover {

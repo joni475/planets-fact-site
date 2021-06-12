@@ -481,6 +481,10 @@ footer {
         text-align: left;
         padding-left: 18px;
     }
+
+    .jupiter-button__one {
+        background-color: #ecad7a;
+    }
     
     .jupiter-button__one:hover,
     .jupiter-button__two:hover,

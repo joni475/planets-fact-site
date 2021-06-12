@@ -480,7 +480,9 @@ footer {
         text-align: left;
         padding-left: 18px;
     }
-  
+    .earth-button__one {
+        background-color: #545bfe;
+    }
     .earth-button__one:hover,
     .earth-button__two:hover,
     .earth-button__three:hover {
