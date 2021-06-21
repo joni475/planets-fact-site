@@ -1,10 +1,15 @@
 //hamburger menu
 const hamburger = document.querySelector(".hamburger");
 const navLinks = document.querySelector(".nav-links");
+const body = document.querySelector("body");
 
 (function(){
-   hamburger.addEventListener("click",()=>{
-     navLinks.classList.toggle("show");
+   hamburger.addEventListener("click",()=>{  
+      if(navLinks.classList.toggle("show")) {
+        body.style.overflow ="hidden";
+      } else {
+        body.style.overflow = "auto";
+      }
    });
 })();
 
